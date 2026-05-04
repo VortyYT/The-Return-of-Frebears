@@ -1,0 +1,33 @@
+{
+    "FileVersion": 3,
+    "EngineAssociation": "5.3",
+    "Category": "Games",
+    "Description": "A free-roam horror game inspired by Five Nights at Freddy's, set in Fredbear's Family Diner.",
+    "Modules": [
+        {
+            "Name": "FredbearsFamilyDiner",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "AdditionalDependencies": [
+                "Engine",
+                "AIModule",
+                "UMG",
+                "NavigationSystem"
+            ]
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "NavigationSystem",
+            "Enabled": true
+        },
+        {
+            "Name": "AISupport",
+            "Enabled": true
+        },
+        {
+            "Name": "EnhancedInput",
+            "Enabled": true
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled assets
+*.uasset.bak
+*.umap.bak
+
+# Swap files
+*.swp
+*~
+
+# Crash reports
+CrashReportClient/
+
+# Content that should be in version control (uncomment to ignore)
+# Content/
+
+# Local user settings
+*.DotSettings.user
